@@ -1,0 +1,67 @@
+#titlefun{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+
+#mainDiv{
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+#display{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: black;
+    margin: 5%;
+    
+}
+#displayTop{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    font-size: 40px;
+    justify-content: end;
+
+}
+#displayBottom{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    justify-content: end;
+
+}
+
+.button{
+    height: 75px;
+    width: 75px;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.deleteBtn{
+width: 257px;
+height: 75px;
+}
+.clearBtn{
+    width: 168px;
+    height: 75px;
+}

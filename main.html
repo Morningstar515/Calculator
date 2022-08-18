@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="titlefun">Beep?Boop!Inc.</div>
+        <div id="display">
+            <span id="displayTop"></span>
+            <span id="displayBottom"></span>
+        </div>
+        <div id="delete" class="row">
+            <button class="button deleteBtn calculator_keys">Delete</button>
+            <button class="button operations calculator_keys" data-action="add">+</button>
+        </div>
+        <div class="row">
+            <button class="button number calculator_keys">1</button>
+            <button class="button number calculator_keys">2</button>
+            <button class="button number calculator_keys">3</button>
+            <button class="button operations calculator_keys" data-action="subtract">-</button>
+        </div>
+        <div class="row">
+            <button class="button number calculator_keys">4</button>
+            <button class="button number calculator_keys">5</button>
+            <button class="button number calculator_keys">6</button>
+            <button class="button operations calculator_keys" data-action="mulitply">*</button>
+        </div>
+
+        <div class="row">
+            <button class="button number calculator_keys">7</button>
+            <button class="button number calculator_keys">8</button>
+            <button class="button number calculator_keys">9</button>
+            <button class="button operations calculator_keys" data-action="divide">/</button>
+        </div>
+        <div id="clear" class="row">
+            <button class="button clearBtn calculator_keys" onclick="clearDisplay()"data-action="clear">Clear</button>
+            <button class="button number calculator_keys">0</button>
+            <button class="button equals calculator_keys"  data-action="calculate">=</button>
+        </div>
+    </div>
+    
+</body>
+</html>
